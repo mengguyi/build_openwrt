@@ -16,6 +16,6 @@ sed -i 's/192.168.1.1/192.168.0.1/g' package/base-files/files/bin/config_generat
 
 # 替换默认主题
 #rm -rf package/lean/luci-theme-argon 
-#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git  package/lean/luci-theme-argon
+git clone https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon
 
 echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages.git' >> feeds.conf.default
