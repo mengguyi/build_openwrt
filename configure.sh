@@ -18,4 +18,8 @@ sed -i 's/192.168.1.1/192.168.0.1/g' package/base-files/files/bin/config_generat
 #rm -rf package/lean/luci-theme-argon 
 git clone https://github.com/jerrykuku/luci-theme-argon.git  package/luci-theme-argon
 
+# 添加 luci-app-argon-config
+
+git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
+
 #echo 'src-git kiddin9 https://github.com/kiddin9/openwrt-packages.git' >> feeds.conf.default
